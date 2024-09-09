@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: Introduction"
-author: "Student Name"
+author: "Kendall Fitzgerald"
 output: pdf_document
 ---
 
@@ -22,15 +22,15 @@ Enter answers to the questions just below the >Answer: prompt.
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer: In terms of R, my previous experience has been one undergraduate course learning the basics of the language. I have also taken a few undergraduate course in basic GIS components that incorporated Python, as well. However, all of these courses were five years ago and unfortunately I haven't done with them since then. I have not used Git extensively before but I'm eager to learn more about it and become more comfortable with R. 
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer: Because I have a little bit of experience with coding language as a concept, I feel confident with the idea that even if I don't grasp lessons right away I will become more comfortable with it the more I practice and repeat practices. 
 
 3. Are there any components of the course about which you feel apprehensive?
 
-> Answer: 
+> Answer: Because I don't have professional experience with R and I haven't touched in it awhile, I'm apprehensive about the stress of not fully grasping a concept before moving on to the next lesson. 
 
 
 ## 2) GitHub
