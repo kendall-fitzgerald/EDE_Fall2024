@@ -32,17 +32,18 @@ This exercise accompanies the lessons/labs in Environmental Data Analytics on co
 
 ```{r basics 1}
 #1. 
-vector1 <- c(seq(from=1,to=55,by=5))
-vector1
-# I am using seq() function to increase from 1 to 55 by five's and have named it 'vector1'
+vector1 <- c(seq(from=1,to=55,by=5)) 
+vector1 # I am using seq() function to increase from 1 to 55 by five's and have named it 'vector1'
+
 
 #2. 
-mean(vector1) # Calculating mean of 'vector1' using RStudio's built in software
+mean(vector1) # Calculating mean of 'vector1' using RStudio's built-in software
 
 median(vector1) #calculating median of 'vector1'
 
 #3. 
-mean(vector1)>median(vector1) # said that mean was greater than median of 'vector1' which R determines as FALSE since they're the same number
+mean(vector1)>median(vector1) 
+# said that mean was greater than median of 'vector1' which R determines as FALSE 
 
 ```
 
@@ -66,8 +67,10 @@ scholarship <- c(TRUE, FALSE, FALSE, TRUE)
 #Combining the vectors into a dataframe and naming dataframe "StudentStats"
 StudentStats <- data.frame(names,testscores,scholarship) 
 
-#Setting the column names & telling R to view output dataframe
-names(StudentStats) <- c("Name","Score","Scholarship"); View(StudentStats)
+#Setting the column names 
+names(StudentStats) <- c("Name","Score","Scholarship")
+
+
 ```
 
 9.  QUESTION: How is this data frame different from a matrix?
@@ -84,8 +87,12 @@ names(StudentStats) <- c("Name","Score","Scholarship"); View(StudentStats)
 
 ```{r basics 3}
 #10. Create a function using if...else
-
-if(x > 50) print("Pass") else print("Fail")
+x=10
+if(x > 50){
+print("Pass")
+} else {
+print("Fail")
+}
 
 
 #11. Create a function using ifelse()
