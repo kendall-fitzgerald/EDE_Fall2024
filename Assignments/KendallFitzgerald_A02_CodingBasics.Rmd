@@ -43,8 +43,7 @@ median(vector1) #calculating median of 'vector1'
 
 #3. 
 mean(vector1)>median(vector1) 
-# said that mean was greater than median of 'vector1' which R determines as FALSE 
-
+# said that mean was greater than median of 'vector1' which R determines as FALSE  
 ```
 
 ## Basics, Part 2
