@@ -3,9 +3,6 @@ title: 'A06 - Crafting Reports'
 author: "Kendall Fitzgerald" 
 date: "Fall 2024"
 output: pdf_document
-geometry: margin=2.54cm
-fig_height: 3
-fig_width: 4
 toc: true
 ---
 \listoffigures
