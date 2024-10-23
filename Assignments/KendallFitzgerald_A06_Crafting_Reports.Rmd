@@ -145,7 +145,7 @@ oz18plot <-
   boxplot_18 +
   labs(x = "Month",
        y = expression(Concentration ~ (mu*g/m^3)),
-       title = "Monthly Ozone concentrations (2018)")+
+       title = "Monthly Ozone concentrations (2018)") +
   theme(
     plot.title = element_text(size = 18),
     axis.title = element_text(size= 14))
@@ -174,7 +174,7 @@ oz19plot <-
   boxplot_19 +
   labs(x = "Month",
        y = expression(Concentration ~ (mu*g/m^3)),
-       title = "Monthly Ozone concentrations (2019)")+
+       title = "Monthly Ozone concentrations (2019)") +
   theme(
     plot.title = element_text(size = 18),
     axis.title = element_text(size= 14))
@@ -192,3 +192,4 @@ print(oz19plot)
 Add a table of contents and list of figures to your document and knit to a PDF. Submit your PDF to Sakai, but also be sure to commit and push your Rmd file used to create this knit document to GitHub. In the section below, add a link to your GitHub repository.
 
 ## Git Repository
+https://github.com/kendall-fitzgerald/EDE_Fall2024/blob/main/Assignments/KendallFitzgerald_A06_Crafting_Reports.Rmd
